@@ -1,13 +1,10 @@
-#include <cstdlib>
-#include <cassert>
 #include <cstdio>
-#include <cassert>
-#include <cassert>
-
-int main (void)
+int main (int argc, char ** argv)
 {
     int a = 10;
     a++;
     printf ("%d", a);
+    printf("Hello world!\n");
+
     return 0;
 }

@@ -6,5 +6,8 @@
 
 int main (void)
 {
+    int a = 10;
+    a++;
+    printf ("%d", a);
     return 0;
 }
